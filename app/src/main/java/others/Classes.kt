@@ -116,7 +116,15 @@ class Classes {
         class Person2 {
             // field - representa a la propiedad, nunca usar this.propiedad
             var firstName: String
+                get() = field.capitalize()
+            set(value) {
+                field = value.capitalize()
+            }
+            constructor(firstName: String, lastName: String) {
+                this.firstName = firstName
+            }
         }
+
     }
 
     fun showCaseS() {
