@@ -228,6 +228,11 @@ class Classes {
         showCase2()
         showCase3()
         showCase4()
+        showCase5()
+        showCase6()
+        showCase7()
+        showCase8()
+        showCase9()
     }
 }
 
