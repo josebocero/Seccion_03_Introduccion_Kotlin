@@ -17,5 +17,6 @@ class MainActivity : AppCompatActivity() {
         Interfaces().showCases()
         Classes().showCaseS()
         Functions().showCases()
+        CompanionObject().showCasees()
     }
 }
